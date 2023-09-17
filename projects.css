@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Set a dark background color */
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the construction image */
+img {
+    width: 100px; /* Adjust the image size as needed */
+    margin: 20px auto;
+    display: block;
+}
+
+/* Style the maintenance message */
+h3 {
+    font-size: 24px;
+    color: #007bff; /* Change the color as desired */
+    margin-top: 20px;
+}
+
+/* Style the "Back" button */
+a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
